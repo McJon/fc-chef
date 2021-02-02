@@ -6,18 +6,6 @@
 - [GitHub Account](https://github.com/)
 - IDE
 
-## Download Quick Start Package
-
-To download the quick start package, clone this repository and remove the `.git` folder by running the following:
-
-```console
-$ git clone https://github.com/northernco/fanshawe-shopify-course.git <theme_name>
-$ cd <theme_name>
-$ rm -rf .git
-```
-
-Create a new repository and add this folder.
-
 ## Downloading the Theme
 
 In the project, run the following to download the theme from your Shopify store using Theme Kit:
