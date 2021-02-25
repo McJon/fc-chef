@@ -1,0 +1,37 @@
+{% if section.settings.toggle %}
+<div class="message-bar">
+ {% if section.settings.message_header != blank %}
+  <h2>{{ section.settings.message_header }}</h2>
+ {% endif %}
+
+ {% unless section.settings.message_content == blank %}
+  <p>{{ section.settings.message_content }}</p>
+  {% endunless %}
+
+  <button>&#10062;</button>
+ </div>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Announcement",
+    "settings": [
+      {
+        "type": "text",
+        "id": "message_header",
+        "label": "Message Header"
+      },
+      {
+        "type": "textarea",
+        "id": "message_content",
+        "label": "Message Content"
+      },
+      {
+        "type": "checkbox",
+        "id": "toggle",
+        "label": "Check to show message",
+        "default": true
+      }
+    ]
+  }
+{% endschema %}
