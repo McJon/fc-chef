@@ -3,7 +3,7 @@
 
   <div style="width:300px; clear:both;">
     <p>
-      <label for="date">Pick a delivery date:</label>
+      <label for="date">Date for Pickup:</label>
       <input id="date" type="text" name="attributes[date]" value="{{ cart.attributes.date }}" />
       <span style="display:block" class="instructions"> We do not deliver during the week-end.</span>
     </p>
@@ -16,7 +16,7 @@
 
         $(function() {
           $("#date").datepicker({
-            minDate: +1, 
+            minDate: +1,
             maxDate: '+2M',
             beforeShowDay: $.datepicker.noWeekends
           });

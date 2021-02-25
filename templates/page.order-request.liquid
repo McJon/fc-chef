@@ -40,13 +40,7 @@
               </div>
             </div>
 
-              <div style="width:300px; clear:both;">
-                <p>
-                   <label for="ContactFormDate" class="hidden-label">{{ 'contact.form.date' | t }}</label>
-                  <input id="date" type="text" name="attributes[date]" value="{{ cart.attributes.date }}" />
-                  <span style="display:block" class="instructions"> We do not deliver during the week-end.</span>
-                </p>
-              </div>
+            {% render 'delivery-date' %}
 
             <label for="ContactFormOrderInstructions" class="hidden-label">{{ 'contact.form.orderinstructions' | t }}</label>
             <textarea rows="10" id="ContactFormOrderInstructions" class="input-full" name="contact[{{ 'contact.form.orderinstructions' | t }}]" placeholder="{{ 'contact.form.orderinstructions' | t }}">{% if form.body %}{{ form.body }}{% endif %}</textarea>
