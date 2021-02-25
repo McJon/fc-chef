@@ -133,6 +133,8 @@
       "email": "Email",
       "phone": "Phone Number",
       "message": "Message",
+      "date": "Pick your date",
+      "orderinstructions": "Order Instructions",
       "send": "Send",
       "post_success": "Thanks for contacting us. We'll get back to you as soon as possible."
     }
