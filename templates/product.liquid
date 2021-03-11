@@ -12,3 +12,11 @@
     <a href="{{ collection.url }}" class="return-link">&larr; {{ 'products.general.collection_return' | t: collection: collection.title }}</a>
   </div>
 {% endif %}
+
+{% comment %} {{all_products['buckle-cap-felt']}} {% endcomment %}
+
+{% for item in collection.products %}
+  <img src="{{item.featured_image.src | img_url: '125x125'}}">
+  <a href="{{item.url}}">{{item.title}}</a>
+  {{item.price | money}}
+{% endfor %}
