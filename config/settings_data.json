@@ -1,23 +1,22 @@
 {
   "current": {
-
     "color_body_bg": "#f5f5f5",
     "color_headings": "#b3272d",
     "color_body_text": "#2d2926",
     "color_borders": "#5dd2b4",
     "color_button_text": "#ffffff",
-    "color_primary": "#7737BD",
+    "color_primary": "#b3272d",
     "color_secondary": "#058677",
     "color_product_background": "#af9b9f",
     "color_sale_tag": "#e80970",
     "color_input": "#ffffff",
     "color_newsletter": "#ffffff",
-    "color_drawer_background": "#360f5f",
-    "color_drawer_text": "#b3272d",
-    "color_drawer_border": "#50297a",
+    "color_drawer_background": "#a62e33",
+    "color_drawer_text": "#ffffff",
+    "color_drawer_border": "#ffffff",
     "color_drawer_button": "#b3272d",
     "color_drawer_button_text": "#b3272d",
-    "type_header_family": "quicksand_n7",
+    "type_header_family": "lato_n4",
     "type_header_base_size": "38px",
     "type_header_border_thickness": "1px",
     "type_accent_family": "roboto_n7",
@@ -42,7 +41,7 @@
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "favicon": "",
+    "favicon": "shopify:\/\/shop_images\/Chef-logo-red.png",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
@@ -72,21 +71,56 @@
           "1495823280244": {
             "type": "slide",
             "settings": {
+              "image": "shopify:\/\/shop_images\/hamburger-and-fries.jpg",
               "image_position": "center center",
               "image_overlay": true,
               "image_overlay_opacity": 25,
               "text_alignment": "center",
-              "slide_heading": "Hero Banner",
+              "slide_heading": "Chef's Table",
               "slide_subheading": "An introductory",
               "button_label": "Shop now",
               "slide_text_color": "#ffffff",
               "slide_button_label_color": "#003b34",
               "slide_button_background_color": "#84d1b2"
             }
+          },
+          "d60ca68f-50e4-4d4f-9923-ed036efb8daa": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dinner-salad.jpg",
+              "image_position": "center center",
+              "image_overlay": true,
+              "image_overlay_opacity": 18,
+              "text_alignment": "center",
+              "slide_heading": "Hero Banner",
+              "slide_subheading": "An introductory",
+              "button_label": "Shop now",
+              "slide_text_color": "#ffffff",
+              "slide_button_label_color": "#ffffff",
+              "slide_button_background_color": "#1f2021"
+            }
+          },
+          "4fa278f8-c02f-407d-9c60-51720e8ad2e5": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/shutterstock_107169560.jpg",
+              "image_position": "center center",
+              "image_overlay": true,
+              "image_overlay_opacity": 2,
+              "text_alignment": "center",
+              "slide_heading": "Hero Banner",
+              "slide_subheading": "An introductory",
+              "button_label": "Shop now",
+              "slide_text_color": "#ffffff",
+              "slide_button_label_color": "#ffffff",
+              "slide_button_background_color": "#1f2021"
+            }
           }
         },
         "block_order": [
-          "1495823280244"
+          "1495823280244",
+          "d60ca68f-50e4-4d4f-9923-ed036efb8daa",
+          "4fa278f8-c02f-407d-9c60-51720e8ad2e5"
         ],
         "settings": {
           "home_hero_height": "full",
@@ -97,7 +131,7 @@
       "featured-products": {
         "type": "featured-products",
         "settings": {
-          "title": "Featured collection",
+          "title": "Chef's Choice",
           "home_featured_products": "frontpage",
           "collection_products_grid": "collage"
         }
@@ -112,6 +146,7 @@
       "header": {
         "type": "header",
         "settings": {
+          "logo": "shopify:\/\/shop_images\/Chef-logo-red.png",
           "logo_max_width": 260,
           "header_color": "#000000",
           "transparent_header_enable": true,
@@ -147,17 +182,19 @@
       "1494860348200": {
         "type": "featured-row",
         "settings": {
+          "image": "shopify:\/\/shop_images\/table-for-two.jpg",
           "layout": "right",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "title": "locally sourced food and international flavours",
+          "text": "<p>Located in the heart of Fanshawe’s <a href=\"https:\/\/www.fanshawec.ca\/about-fanshawe\/locations\/london-downtown-campus\" title=\"London Downtown Campus\">London Downtown Campus<\/a>, The Chef’s Table delivers an outstanding guest experience and service. This Fanshawe restaurant and cafe offers a fun, relaxing and inviting atmosphere to the public. Join us for lunch or dinner options, as well as our on-the-go cafe.<\/p>",
           "button_label": ""
         }
       },
       "1494894035034": {
         "type": "featured-row",
         "settings": {
+          "image": "shopify:\/\/shop_images\/fine-food-dining-in-style.jpg",
           "layout": "left",
-          "title": "Image with text",
+          "title": "A taste of student's success",
           "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
           "button_label": ""
         }
@@ -173,6 +210,7 @@
       },
       "1496078102297": {
         "type": "advanced-content",
+        "disabled": true,
         "blocks": {
           "1496078102297-0": {
             "type": "html",
@@ -190,11 +228,12 @@
       },
       "1496177901425": {
         "type": "advanced-content",
+        "disabled": true,
         "blocks": {
           "1496177901425-0": {
             "type": "html",
             "settings": {
-              "code": "<div style=\"width:745px;text-align: center; margin: 0 auto;\">This text can be used to share information about your brand with customers.<\/div>",
+              "code": "<div style=\"width:745px;text-align: center; margin: 0 auto;\">Welcome to The Chef’s Table.<\/div>",
               "width": "100%",
               "alignment": "top-middle"
             }
@@ -204,16 +243,35 @@
           "1496177901425-0"
         ],
         "settings": {}
+      },
+      "message-bar": {
+        "type": "message-bar",
+        "settings": {
+          "page_link": "",
+          "toggle": false,
+          "message_header": "",
+          "message_content": ""
+        }
+      },
+      "1616079187fe70f383": {
+        "type": "featured-content",
+        "settings": {
+          "home_page_full_width": false,
+          "section_title": "Welcome to The Chef’s Table",
+          "text": "<p>Enjoy a restaurant and cafe experience brought to you by the students of Fanshawe College at The Chef’s Table<\/p>",
+          "text_size": "medium"
+        }
       }
     },
     "content_for_index": [
       "slideshow",
+      "1616079187fe70f383",
       "1496177901425",
       "featured-products",
-      "newsletter",
       "1496078102297",
       "1494860348200",
-      "1494894035034"
+      "1494894035034",
+      "newsletter"
     ]
   },
   "presets": {
