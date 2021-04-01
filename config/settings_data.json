@@ -140,7 +140,7 @@
         "type": "newsletter",
         "settings": {
           "heading": "Subscribe to our newsletter",
-          "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+          "subheading": "<p>Promotions, new products and sales. Directly to your inbox. You can unsubscribe anytime.<\/p><p><a title=\"Privacy Policy\" href=\"\/policies\/privacy-policy\">Privacy and <\/a><a title=\"Terms of Service\" href=\"\/policies\/terms-of-service\">Terms<\/a><\/p><p><\/p>"
         }
       },
       "header": {
